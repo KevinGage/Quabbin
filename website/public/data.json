@@ -1,0 +1,117 @@
+{
+  "fishermen": [
+    {
+      "Name": "Kevin Gage",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.9",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.1",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.15",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.13",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.11",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.15",
+          "Year": "2008",
+          "Winner": false
+        },
+      ]
+    }
+  ],
+  "species": [
+    {
+      "name": "Lake Trout",
+      "code": "l"
+    },
+    {
+      "name": "Salmon",
+      "code": "s"
+    },
+    {
+      "name": "Rainbow Trout",
+      "code": "r"
+    },
+    {
+      "name": "Smallmouth Bass",
+      "code": "sm"
+    }
+  ]
+}
