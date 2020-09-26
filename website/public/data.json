@@ -643,6 +643,23 @@
       ]
     },
     {
+      "Name": "Jerry Kissrell",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "3.8",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.10",
+          "Year": "2017",
+          "Winner": false
+        }
+      ]
+    },
+    {
       "Name": "Jimmy Borden",
       "Fish": [
         {
@@ -672,6 +689,18 @@
           "Species": "l",
           "Weight": "4.13",
           "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2017",
           "Winner": false
         },
         {
@@ -1168,6 +1197,12 @@
         {
           "Species": "l",
           "Weight": "3.1",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "2.7",
           "Year": "2017",
           "Winner": false
         },
