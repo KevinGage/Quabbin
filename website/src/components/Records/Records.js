@@ -1,6 +1,5 @@
 import React from 'react';
 import Record from '../Record/Record';
-import data from '../../data/data.json';
 
 function Records({fishermen, species}) {
   const stringToOunces = (s) => {
@@ -8,30 +7,36 @@ function Records({fishermen, species}) {
     return (parseInt(stringParts[0]) * 16) + parseInt(stringParts[1]);
   }
 
-  const getLargestFish = () => {
-    const winner = fishermen.map((fm) => {
-      fm.Fish.sort((a,b) => {
-        return stringToOunces(b.Weight) - stringToOunces(a.Weight);
-      });
-
+  // add oz property to all fish
+  // sort fish smallest to largest
+  fishermen = fishermen.map((fm) => {
+    fm.Fish = fm.Fish.map(f => {
       return {
-        'name': fm.Name,
-        'species': fm.Fish[0].Species,
-        'weight': fm.Fish[0].Weight,
-        'year': fm.Fish[0].Year
+        ...f,
+        'oz': stringToOunces(f.Weight)
       }
-    }).reduce((a, c) => {
-      if (a.weight < c.weight) {
+    }).sort((a,b) => {
+      return b.oz - a.oz;
+    });
+
+    return {
+      ...fm
+    }
+  });
+
+  const getLargestFish = () => {
+    const winner = fishermen.reduce((a, c) => {
+      if (a.Fish[0].oz < c.Fish[0].oz) {
         return c;
       }
       return a;
     });
 
     const info = [
-      winner.name,
-      winner.species,
-      winner.weight,
-      winner.year
+      winner.Name,
+      winner.Fish[0].Species,
+      winner.Fish[0].Weight,
+      winner.Fish[0].Year
     ];
 
     return {
@@ -42,29 +47,28 @@ function Records({fishermen, species}) {
   }
 
   const getLargestRainbow = () => {
-    const winner = fishermen.map((fm) => {
-      fm.Fish = fm.Fish.filter(f => {
+    const winner = fishermen.reduce((a, c) => {
+      const rainbows = c.Fish.filter(f => {
         return f.Species.toLowerCase() === 'r'
       }).sort((a,b) => {
-        return stringToOunces(b.Weight) - stringToOunces(a.Weight);
+        return b.oz = a.oz;
       });
 
-      return {
-        'name': fm.Name,
-        'weight': fm.Fish.length > 0 ? fm.Fish[0].Weight : 0,
-        'year': fm.Fish.length > 0 ? fm.Fish[0].Year : undefined
-      }
-
-    }).reduce((a, c) => {
-      if (a.weight < c.weight) {
-        return c;
+      if (rainbows.length > 0) {
+        if (a.oz < rainbows[0].oz) {
+          return {
+            'name': c.Name,
+            'weight': rainbows[0].Weight,
+            'oz': rainbows[0].oz,
+            'year': rainbows[0].Year
+          }
+        }
       }
       return a;
-    });
+    }, {'oz': -1});
 
     const info = [
       winner.name,
-      winner.species,
       winner.weight,
       winner.year
     ];
