@@ -1,17 +1,15 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Record from '../Record/Record';
 import data from '../../data/data.json';
 
-function Records() {
-  const [records, setRecords] = useState([]);
-
+function Records({fishermen, species}) {
   const stringToOunces = (s) => {
     const stringParts = s.split('.');
     return (parseInt(stringParts[0]) * 16) + parseInt(stringParts[1]);
   }
 
   const getLargestFish = () => {
-    const winner = data.fishermen.map((fm) => {
+    const winner = fishermen.map((fm) => {
       fm.Fish.sort((a,b) => {
         return stringToOunces(b.Weight) - stringToOunces(a.Weight);
       });
@@ -44,7 +42,7 @@ function Records() {
   }
 
   const getLargestRainbow = () => {
-    const winner = data.fishermen.map((fm) => {
+    const winner = fishermen.map((fm) => {
       fm.Fish = fm.Fish.filter(f => {
         return f.Species.toLowerCase() === 'r'
       }).sort((a,b) => {
@@ -78,13 +76,9 @@ function Records() {
     }
   }
 
-  useEffect(() => {
-    const allRecords = [];
-    allRecords.push(getLargestFish());
-    allRecords.push(getLargestRainbow());
-
-    setRecords(allRecords);
-  }, []);
+  const records = [];
+  records.push(getLargestFish());
+  records.push(getLargestRainbow());
 
   return (
     <div>

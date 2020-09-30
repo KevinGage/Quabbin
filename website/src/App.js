@@ -4,6 +4,7 @@ import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import Records from './components/Records/Records';
 import RawData from './components/RawData/RawData';
 import NotFound from './components/NotFound/NotFound';
+import data from './data/data.json';
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
         <NavbarComponent />
         <Switch>
           <Route exact path="/">
-            <Records />
+            <Records
+              fishermen={data.fishermen}
+              species={data.species}
+            />
           </Route>
           <Route path="/data">
             <RawData />
