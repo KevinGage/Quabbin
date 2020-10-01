@@ -20,7 +20,10 @@ function App() {
             />
           </Route>
           <Route path="/data">
-            <RawData />
+            <RawData
+              fishermen={data.fishermen}
+              species={data.species}
+            />
           </Route>
           <Route path="/about">
             <About />
