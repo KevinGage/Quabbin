@@ -14,6 +14,7 @@ function NavbarComponent() {
         <Nav className="mr-auto">
           <Nav.Link href="/">Records</Nav.Link>
           <Nav.Link href="/data">Spreadsheet</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
   </Navbar>

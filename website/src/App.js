@@ -4,6 +4,7 @@ import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import Records from './components/Records/Records';
 import RawData from './components/RawData/RawData';
 import NotFound from './components/NotFound/NotFound';
+import About from './components/About/About';
 import data from './data/data.json';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/data">
             <RawData />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="*">
             <NotFound />
