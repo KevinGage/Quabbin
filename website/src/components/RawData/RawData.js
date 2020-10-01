@@ -1,10 +1,9 @@
 import React from 'react';
-import stringToOunces from '../../util/ToOz';
 import ToolkitProvider from 'react-bootstrap-table2-toolkit';
 import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory, { textFilter, selectFilter, numberFilter } from 'react-bootstrap-table2-filter';
 
-function RawData({fishermen, species}) {
+function RawData({fish}) {
   const selectOptions = {
     true: 'Yes',
     false: 'No'
@@ -62,24 +61,11 @@ function RawData({fishermen, species}) {
     order: 'desc'
   }];
 
-  const data = fishermen.flatMap(fm => {
-    return fm.Fish.map((f, i) => {
-      const speciesName = species.find(s => s.code === f.Species).name 
-      return {
-        ...f,
-        'Id': fm.Name + i,
-        'Name': fm.Name,
-        'Species': speciesName,
-        'Oz': stringToOunces(f.Weight)
-      }
-    });
-  });
-
   return (
     <ToolkitProvider
       keyField='Id'
       bootstrap4 = {true}
-      data={data}
+      data={fish}
       columns={ columns }
     >
       {

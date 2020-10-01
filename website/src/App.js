@@ -6,8 +6,23 @@ import RawData from './components/RawData/RawData';
 import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
 import data from './data/data.json';
+import stringToOunces from './util/ToOz';
 
 function App() {
+  const fish = data.fishermen.flatMap(fm => {
+    return fm.Fish.map((f, i) => {
+      const speciesName = data.species.find(s => s.code === f.Species).name 
+      return {
+        ...f,
+        'Id': fm.Name + i,
+        'Name': fm.Name,
+        'SpeciesCode': f.Species,
+        'Species': speciesName,
+        'Oz': stringToOunces(f.Weight)
+      }
+    });
+  });
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -15,14 +30,12 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Records
-              fishermen={data.fishermen}
-              species={data.species}
+              fish={fish}
             />
           </Route>
           <Route path="/data">
             <RawData
-              fishermen={data.fishermen}
-              species={data.species}
+              fish={fish}
             />
           </Route>
           <Route path="/about">

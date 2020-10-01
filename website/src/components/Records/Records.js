@@ -1,78 +1,50 @@
 import React from 'react';
 import Record from '../Record/Record';
-import stringToOunces from '../../util/ToOz';
 
-function Records({fishermen, species}) {
-  // add oz property to all fish
-  // sort fish smallest to largest
-  fishermen = fishermen.map((fm) => {
-    fm.Fish = fm.Fish.map(f => {
-      return {
-        ...f,
-        'oz': stringToOunces(f.Weight)
-      }
-    }).sort((a,b) => {
-      return b.oz - a.oz;
-    });
-
-    return {
-      ...fm
-    }
-  });
-
+function Records({fish}) {
   const getLargestFish = () => {
-    const winner = fishermen.reduce((a, c) => {
-      if (a.Fish[0].oz < c.Fish[0].oz) {
+    const winner = fish.reduce((a, c) => {
+      if (a.Oz < c.Oz) {
         return c;
       }
       return a;
     });
 
-    const info = [
-      winner.Name,
-      winner.Fish[0].Species,
-      winner.Fish[0].Weight,
-      winner.Fish[0].Year
-    ];
+    const info = {
+      place: 1,
+      name: winner.Name,
+      year: winner.Year,
+      info: [
+        `Species: ${winner.Species}`,
+        `Weight: ${winner.Weight}`
+      ]
+    };
 
     return {
       'title': 'Largest Fish',
       'description': 'Largest Fish Of Any Species By Weight',
-      'info': info
+      'winners': [info]
     }
   }
 
   const getLargestRainbow = () => {
-    const winner = fishermen.reduce((a, c) => {
-      const rainbows = c.Fish.filter(f => {
-        return f.Species.toLowerCase() === 'r'
-      }).sort((a,b) => {
-        return b.oz - a.oz;
-      });
+    const winners = fish.filter(f => {
+      return f.SpeciesCode.toLowerCase() === 'r'
+    }).sort((a,b) => {
+      return b.Oz - a.Oz;
+    });
 
-      if (rainbows.length > 0) {
-        if (a.oz < rainbows[0].oz) {
-          return {
-            'name': c.Name,
-            'weight': rainbows[0].Weight,
-            'oz': rainbows[0].oz,
-            'year': rainbows[0].Year
-          }
-        }
-      }
-      return a;
-    }, {'oz': -1});
-
-    const info = [
-      winner.name,
-      winner.weight,
-      winner.year
-    ];
+    const winner = {
+    'place': 1,
+    'name': winners[0].Name,
+    'year': winners[0].Year,
+    'info': [`Weight: ${winners[0].Weight}`]
+    }
 
     return {
       'title': 'Largest Rainbow',
       'description': 'Largest Rainbow Trout By Weight',
-      'info': info
+      'winners': [winner]
     }
   }
 
@@ -82,14 +54,17 @@ function Records({fishermen, species}) {
 
   return (
     <div>
-      {records.map(r => {
+      {records.map((r, i) => {
         return(
-          <Record
-            key={r.title}
-            title={r.title}
-            description={r.description}
-            info={r.info}
-          />
+          <div key={r.title}>
+            <Record
+              key={r.title}
+              title={r.title}
+              description={r.description}
+              winners={r.winners}
+            />
+            <hr/>
+          </div>
         )
       })}
     </div>
