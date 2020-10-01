@@ -12,7 +12,7 @@
         {
           "Species": "l",
           "Weight": "2.11",
-          "Year": "l",
+          "Year": "2018",
           "Winner": false
         },
         {
@@ -1679,6 +1679,10 @@
     {
       "name": "Smallmouth Bass",
       "code": "sm"
+    },
+    {
+      "name": "",
+      "code": ""
     }
   ]
 }
