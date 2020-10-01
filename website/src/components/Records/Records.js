@@ -1,12 +1,8 @@
 import React from 'react';
 import Record from '../Record/Record';
+import stringToOunces from '../../util/ToOz';
 
 function Records({fishermen, species}) {
-  const stringToOunces = (s) => {
-    const stringParts = s.split('.');
-    return (parseInt(stringParts[0]) * 16) + parseInt(stringParts[1]);
-  }
-
   // add oz property to all fish
   // sort fish smallest to largest
   fishermen = fishermen.map((fm) => {
@@ -51,7 +47,7 @@ function Records({fishermen, species}) {
       const rainbows = c.Fish.filter(f => {
         return f.Species.toLowerCase() === 'r'
       }).sort((a,b) => {
-        return b.oz = a.oz;
+        return b.oz - a.oz;
       });
 
       if (rainbows.length > 0) {
