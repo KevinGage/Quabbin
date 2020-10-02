@@ -3,4 +3,17 @@
   border: 2px solid #73AD21;
   padding: 20px;
   margin: 10px 75px 10px 75px;
+  text-align: center;
+}
+
+.first {
+  background: gold;
+}
+
+.second {
+  background: silver;
+}
+
+.third {
+  background: #AD8A56;
 }
