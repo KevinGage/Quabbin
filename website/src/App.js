@@ -21,6 +21,8 @@ function App() {
         'Oz': stringToOunces(f.Weight)
       }
     });
+  }).sort((a,b) => {
+    return b.Oz - a.Oz;
   });
 
   return (
