@@ -42,6 +42,74 @@ function Records({fish}) {
     }
   }
 
+  const getLargestSalmon = () => {
+    const winners = fish.filter(f => {
+      return f.SpeciesCode.toLowerCase() === 's'
+    })
+
+    // This logic doesn't handle ties
+    const winner = {
+    'place': 1,
+    'name': winners[0].Name,
+    'year': winners[0].Year,
+    'info': [`Weight: ${winners[0].Weight}`]
+    }
+
+    const second = {
+      'place': 2,
+      'name': winners[1].Name,
+      'year': winners[1].Year,
+      'info': [`Weight: ${winners[1].Weight}`]
+      }
+
+    const third = {
+      'place': 3,
+      'name': winners[2].Name,
+      'year': winners[2].Year,
+      'info': [`Weight: ${winners[2].Weight}`]
+      }
+
+    return {
+      'title': 'Largest Salmon',
+      'description': 'Largest Salmon By Weight',
+      'winners': [winner, second, third]
+    }
+  }
+
+  const getLargestSmallmouth = () => {
+    const winners = fish.filter(f => {
+      return f.SpeciesCode.toLowerCase() === 'sm'
+    })
+
+    // This logic doesn't handle ties
+    const winner = {
+    'place': 1,
+    'name': winners[0].Name,
+    'year': winners[0].Year,
+    'info': [`Weight: ${winners[0].Weight}`]
+    }
+
+    const second = {
+      'place': 2,
+      'name': winners[1].Name,
+      'year': winners[1].Year,
+      'info': [`Weight: ${winners[1].Weight}`]
+      }
+
+    const third = {
+      'place': 3,
+      'name': winners[2].Name,
+      'year': winners[2].Year,
+      'info': [`Weight: ${winners[2].Weight}`]
+      }
+
+    return {
+      'title': 'Largest Smallmouth',
+      'description': 'Largest Smallmouth Bass By Weight',
+      'winners': [winner, second, third]
+    }
+  }
+
   const getLargestRainbow = () => {
     const winners = fish.filter(f => {
       return f.SpeciesCode.toLowerCase() === 'r'
@@ -78,6 +146,8 @@ function Records({fish}) {
 
   const records = [];
   records.push(getLargestFish());
+  records.push(getLargestSalmon());
+  records.push(getLargestSmallmouth());
   records.push(getLargestRainbow());
 
   return (
