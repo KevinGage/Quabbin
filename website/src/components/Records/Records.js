@@ -1,151 +1,103 @@
 import React from 'react';
 import Record from '../Record/Record';
 
+// Data already comes in sorter by Oz
 function Records({fish}) {
-  // Data already comes in sorter by Oz
+  const getWeightRecords = (species) => {
+    const filteredFish = fish.filter(f => {
+      if (species) {
+        return f.SpeciesCode.toLowerCase() === species
+      } else {
+        return f;
+      }
+    });
+
+    const biggest = filteredFish[0];
+
+    const first = filteredFish.filter(ff => {
+      return ff.Weight === biggest.Weight
+    }).map(w => {
+      return {
+        'place': 1,
+        'name': w.Name,
+        'year': w.Year,
+        'info': [`Weight: ${w.Weight}`]
+      }
+    });
+
+    const secondBiggest = filteredFish[first.length];
+
+    const second = filteredFish.filter(ff => {
+      return ff.Weight === secondBiggest.Weight
+    }).map(w => {
+      return {
+        'place': 2,
+        'name': w.Name,
+        'year': w.Year,
+        'info': [`Weight: ${w.Weight}`]
+      }
+    });
+
+    const thirdBiggest = filteredFish[first.length + second.length];
+
+    const third = filteredFish.filter(ff => {
+      return ff.Weight === thirdBiggest.Weight
+    }).map(w => {
+      return {
+        'place': 3,
+        'name': w.Name,
+        'year': w.Year,
+        'info': [`Weight: ${w.Weight}`]
+      }
+    });
+
+    return [...first, ...second, ...third]
+    
+  }
+
   const getLargestFish = () => {
-    // This logic doesn't handle ties
-    const winner = {
-      place: 1,
-      name: fish[0].Name,
-      year: fish[0].Year,
-      info: [
-        `Species: ${fish[0].Species}`,
-        `Weight: ${fish[0].Weight}`
-      ]
-    };
-
-    const second = {
-      place: 2,
-      name: fish[1].Name,
-      year: fish[1].Year,
-      info: [
-        `Species: ${fish[1].Species}`,
-        `Weight: ${fish[1].Weight}`
-      ]
-    };
-
-    const third = {
-      place: 3,
-      name: fish[2].Name,
-      year: fish[2].Year,
-      info: [
-        `Species: ${fish[2].Species}`,
-        `Weight: ${fish[2].Weight}`
-      ]
-    };
-
     return {
       'title': 'Largest Fish',
       'description': 'Largest Fish Of Any Species By Weight',
-      'winners': [winner, second, third]
+      'winners': getWeightRecords()
+    }
+  }
+
+  const getLargestLaker = () => {
+    return {
+      'title': 'Largest Laker',
+      'description': 'Largest Lake Trout By Weight',
+      'winners': getWeightRecords('l')
     }
   }
 
   const getLargestSalmon = () => {
-    const winners = fish.filter(f => {
-      return f.SpeciesCode.toLowerCase() === 's'
-    })
-
-    // This logic doesn't handle ties
-    const winner = {
-    'place': 1,
-    'name': winners[0].Name,
-    'year': winners[0].Year,
-    'info': [`Weight: ${winners[0].Weight}`]
-    }
-
-    const second = {
-      'place': 2,
-      'name': winners[1].Name,
-      'year': winners[1].Year,
-      'info': [`Weight: ${winners[1].Weight}`]
-      }
-
-    const third = {
-      'place': 3,
-      'name': winners[2].Name,
-      'year': winners[2].Year,
-      'info': [`Weight: ${winners[2].Weight}`]
-      }
-
     return {
       'title': 'Largest Salmon',
       'description': 'Largest Salmon By Weight',
-      'winners': [winner, second, third]
+      'winners': getWeightRecords('s')
     }
   }
 
   const getLargestSmallmouth = () => {
-    const winners = fish.filter(f => {
-      return f.SpeciesCode.toLowerCase() === 'sm'
-    })
-
-    // This logic doesn't handle ties
-    const winner = {
-    'place': 1,
-    'name': winners[0].Name,
-    'year': winners[0].Year,
-    'info': [`Weight: ${winners[0].Weight}`]
-    }
-
-    const second = {
-      'place': 2,
-      'name': winners[1].Name,
-      'year': winners[1].Year,
-      'info': [`Weight: ${winners[1].Weight}`]
-      }
-
-    const third = {
-      'place': 3,
-      'name': winners[2].Name,
-      'year': winners[2].Year,
-      'info': [`Weight: ${winners[2].Weight}`]
-      }
-
     return {
       'title': 'Largest Smallmouth',
       'description': 'Largest Smallmouth Bass By Weight',
-      'winners': [winner, second, third]
+      'winners': getWeightRecords('sm')
     }
   }
 
   const getLargestRainbow = () => {
-    const winners = fish.filter(f => {
-      return f.SpeciesCode.toLowerCase() === 'r'
-    })
-
-    // This logic doesn't handle ties
-    const winner = {
-    'place': 1,
-    'name': winners[0].Name,
-    'year': winners[0].Year,
-    'info': [`Weight: ${winners[0].Weight}`]
-    }
-
-    const second = {
-      'place': 2,
-      'name': winners[1].Name,
-      'year': winners[1].Year,
-      'info': [`Weight: ${winners[1].Weight}`]
-      }
-
-    const third = {
-      'place': 3,
-      'name': winners[2].Name,
-      'year': winners[2].Year,
-      'info': [`Weight: ${winners[2].Weight}`]
-      }
-
     return {
       'title': 'Largest Rainbow',
       'description': 'Largest Rainbow Trout By Weight',
-      'winners': [winner, second, third]
+      'winners': getWeightRecords('r')
     }
   }
 
   const records = [];
   records.push(getLargestFish());
+  records.push(getLargestLaker());
   records.push(getLargestSalmon());
   records.push(getLargestSmallmouth());
   records.push(getLargestRainbow());
