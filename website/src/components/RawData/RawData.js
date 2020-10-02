@@ -2,8 +2,33 @@ import React from 'react';
 import ToolkitProvider from 'react-bootstrap-table2-toolkit';
 import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory, { textFilter, selectFilter, numberFilter } from 'react-bootstrap-table2-filter';
+import stringToOunces from '../../util/ToOz';
 
 function RawData({fish}) {
+  const filterByLbs = (filterVal, data) => {
+    if (filterVal.number === "") {
+      return data;
+    }
+    switch (filterVal.comparator){
+      case '':
+        return data;
+      case '=':
+        return data.filter(d => d.Oz === stringToOunces(filterVal.number));
+      case '!=':
+        return data.filter(d => d.Oz !== stringToOunces(filterVal.number));
+      case '>':
+        return data.filter(d => d.Oz > stringToOunces(filterVal.number));
+      case '>=':
+        return data.filter(d => d.Oz >= stringToOunces(filterVal.number));;
+      case '<':
+        return data.filter(d => d.Oz < stringToOunces(filterVal.number));
+      case '<=':
+        return data.filter(d => d.Oz <= stringToOunces(filterVal.number));
+      default:
+        return data;
+    }
+  }
+
   const selectOptions = {
     true: 'Yes',
     false: 'No'
@@ -37,7 +62,10 @@ function RawData({fish}) {
           return rowA.Oz - rowB.Oz;
         }
         return rowB.Oz - rowA.Oz;
-      }
+      },
+      filter: numberFilter({
+        onFilter: filterByLbs
+      })
     },
     {
       dataField: 'Year',
@@ -54,7 +82,7 @@ function RawData({fish}) {
         options: selectOptions
       })
     }
-  ]
+  ];
 
   const defaultSorted = [{
     dataField: 'name',
