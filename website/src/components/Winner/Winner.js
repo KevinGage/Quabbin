@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Winner.module.css';
 
 function Winner({place, name, year, info}) {
   return (
-    <div>
+    <div className={styles.winner}>
       {place}<br />
       {name}<br />
       {year}<br />
