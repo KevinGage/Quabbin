@@ -11,7 +11,7 @@ function RawData({fish}) {
     };
     return (
       <div>
-        <button className="btn btn-primary" onClick={ handleClick }>Export to CSV</button>
+        <button className="btn btn-primary" onClick={ handleClick }>Download Spreadsheet</button>
       </div>
     );
   };
