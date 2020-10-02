@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import Records from './components/Records/Records';
 import RawData from './components/RawData/RawData';
+import Stats from './components/Stats/Stats';
 import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
 import data from './data/data.json';
@@ -32,6 +33,11 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Records
+              fish={fish}
+            />
+          </Route>
+          <Route exact path="/stats">
+            <Stats
               fish={fish}
             />
           </Route>
