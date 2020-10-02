@@ -5,6 +5,17 @@ import filterFactory, { textFilter, selectFilter, numberFilter } from 'react-boo
 import stringToOunces from '../../util/ToOz';
 
 function RawData({fish}) {
+  const CustomExportCsvButton = (props) => {
+    const handleClick = () => {
+      props.onExport();
+    };
+    return (
+      <div>
+        <button className="btn btn-primary" onClick={ handleClick }>Export to CSV</button>
+      </div>
+    );
+  };
+
   const filterByLbs = (filterVal, data) => {
     if (filterVal.number === "") {
       return data;
@@ -95,14 +106,21 @@ function RawData({fish}) {
       bootstrap4 = {true}
       data={fish}
       columns={ columns }
+      exportCSV
     >
       {
-        props => <BootstrapTable
-          { ...props.baseProps }
-          striped = {true}
-          defaultSorted = {defaultSorted}
-          filter={ filterFactory() }
-        />
+        props => (
+          <div>
+            <CustomExportCsvButton { ...props.csvProps }>Download Spreadsheet</CustomExportCsvButton>
+            <hr />
+            <BootstrapTable
+              { ...props.baseProps }
+              striped = {true}
+              defaultSorted = {defaultSorted}
+              filter={ filterFactory() }
+            />
+          </div>
+        )
       }
     </ToolkitProvider>
   );
