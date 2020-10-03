@@ -5,76 +5,44 @@ import { ResponsiveLine } from '@nivo/line'
 
 function Stats({fish}) {
   // Just use Oz to make things easier for now
-  const averageFishWeightPerYear = [
-    {
-      'id': 'Lake Trout',
-      'data': [
-        {
-          'x': 1995,
-          'y': 3.5
-        },
-        {
-          'x': 1996,
-          'y': 4.2
-        },
-        {
-          'x': 1997,
-          'y': 3.1
-        }
-      ]
-    },
-    {
-      'id': 'Rainbow Trout',
-      'data': [
-        {
-          'x': 1995,
-          'y': 1.1
-        },
-        {
-          'x': 1996,
-          'y': 0.7
-        },
-        {
-          'x': 1997,
-          'y': 2.1
-        }
-      ]
-    },
-    {
-      'id': 'Salmon',
-      'data': [
-        {
-          'x': 1995,
-          'y': 3.8
-        },
-        {
-          'x': 1996,
-          'y': 2.9
-        },
-        {
-          'x': 1997,
-          'y': 3.5
-        }
-      ]
-    },
-    {
-      'id': 'SmallMouth',
-      'data': [
-        {
-          'x': 1995,
-          'y': 2.0
-        },
-        {
-          'x': 1996,
-          'y': 1.8
-        },
-        {
-          'x': 1997,
-          'y': 3.1
-        }
-      ]
+  const averageFishWeightPerYear = fish.sort((a,b) => {
+    return a.Year - b.Year;
+  }).reduce((a,c)=> {
+    if (c.Species === ""){
+      return a;
     }
-  ]
+    const speciesIndex = a.findIndex(e => e.id === c.Species);
+    if (speciesIndex > -1) {
+      const yearIndex = a[speciesIndex].data.findIndex(e => e.x === c.Year);
+      if (yearIndex > -1) {
+        a[speciesIndex].data[yearIndex].totalOz += c.Oz;
+        a[speciesIndex].data[yearIndex].Count += 1;
+        a[speciesIndex].data[yearIndex].y = a[speciesIndex].data[yearIndex].totalOz / a[speciesIndex].data[yearIndex].Count;
+      } else {
+        const y = c.Oz;
+        a[speciesIndex].data.push({
+          'x': c.Year,
+          'totalOz': c.Oz,
+          'Count': 1,
+          'y': y
+        });
+      }
+    } else {
+      const y = c.Oz;
+      a.push({
+        'id': c.Species,
+        'data': [
+          {
+            'x': c.Year,
+            'totalOz': c.Oz,
+            'Count': 1,
+            'y': y
+          }
+        ]
+      });
+    }
+    return a;
+  }, []);
 
   return (
     <Container fluid>
@@ -83,7 +51,7 @@ function Stats({fish}) {
         <ResponsiveLine
           data={averageFishWeightPerYear}
           margin={{ top: 55, right: 165, bottom: 55, left: 25 }}
-          curve="natural"
+          curve="monotoneX"
           colors={{ scheme: 'paired' }}
           axisBottom={{
             orient: 'bottom',
