@@ -1,5 +1,18 @@
-.chartContainer {
+.lineContainer {
   /* add size breakpoints for mobile? */
   width: 90vw;
   height: 25vw;
+}
+
+.pieContainer {
+  /* add size breakpoints for mobile? */
+  width: 40vw;
+  height: 40vw;
+}
+
+.label {
+  font-size: 12px;
+  font-family: sans-serif;
+  position: realtive;
+  text-align:center;
 }
