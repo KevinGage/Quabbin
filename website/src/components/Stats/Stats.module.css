@@ -1,18 +1,30 @@
+/* Phones */
 .lineContainer {
-  /* add size breakpoints for mobile? */
-  width: 90vw;
-  height: 25vw;
+  width: 100vw;
+  height: 100vw;
 }
 
 .pieContainer {
-  /* add size breakpoints for mobile? */
-  width: 40vw;
-  height: 40vw;
+  width: 100vw;
+  height: 100vw;
 }
 
 .label {
   font-size: 12px;
   font-family: sans-serif;
   position: realtive;
-  text-align:center;
+  text-align: center;
+}
+
+/* Tablets and larger */
+@media (min-width: 768px) {
+  .lineContainer {
+    width: 90vw;
+    height: 25vw;
+  }
+
+  .pieContainer {
+    width: 40vw;
+    height: 40vw;
+  }
 }
