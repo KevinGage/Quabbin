@@ -3,7 +3,7 @@
 ## Building the Docker image
 You must either build a docker image or import one before you can create containers.
 
-1. Open a terminal and change directories to tbc/Interface/
+1. Open a terminal and change directories to /website
 2. Run the following command.  Note the . at the end of the command. ```docker build -t {tag name} .```
     * Example: ```docker build -t quabbin .```
 
