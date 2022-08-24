@@ -1,8 +1,16 @@
+// ###### WHO IS PHEDZ? 2 lb 6 oz small mouth 2022
+
 {
   "fishermen": [
     {
       "Name": "Bill Dowd",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.1",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "s",
           "Weight": "2.5",
@@ -98,6 +106,12 @@
     {
       "Name": "Bill Dowd Jr",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "2.14",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "2.7",
@@ -196,6 +210,12 @@
     {
       "Name": "Carl Johnson",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "1.15",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "s",
           "Weight": "1.10",
@@ -581,6 +601,12 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "2.10",
+          "Year": "2022",
+          "Winner": true
+        },
+        {
+          "Species": "l",
           "Weight": "2.14",
           "Year": "2021",
           "Winner": false
@@ -835,6 +861,12 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "2.14",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "4.14",
           "Year": "2019",
           "Winner": true
@@ -956,6 +988,12 @@
     {
       "Name": "John McDonnell",
       "Fish": [
+        {
+          "Species": "r",
+          "Weight": "1.11",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "3.13",
@@ -1096,6 +1134,12 @@
     {
       "Name": "Kevin Gage",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "2.10",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "4.9",
@@ -1244,6 +1288,12 @@
     {
       "Name": "Mark Nobrega",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.0",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "4.4",
@@ -1626,6 +1676,12 @@
       "Name": "Steve Sutterly",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "1.12",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
           "Species": "r",
           "Weight": "1.9",
           "Year": "2018",
@@ -1666,6 +1722,12 @@
     {
       "Name": "Terry Carbone",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "1.14",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "4.8",
