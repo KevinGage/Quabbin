@@ -1,17 +1,6 @@
 {
   "fishermen": [
     {
-      "Name": "Phedz",
-      "Fish": [
-        {
-          "Species": "sm",
-          "Weight": "2.6",
-          "Year": "2022",
-          "Winner": false
-        }
-      ]
-    },
-    {
       "Name": "Bill Dowd",
       "Fish": [
         {
@@ -610,7 +599,7 @@
       "Fish": [
         {
           "Species": "l",
-          "Weight": "2.10",
+          "Weight": "3.10",
           "Year": "2022",
           "Winner": true
         },
@@ -1145,7 +1134,7 @@
       "Fish": [
         {
           "Species": "s",
-          "Weight": "2.10",
+          "Weight": "2.1",
           "Year": "2022",
           "Winner": false
         },
@@ -1826,6 +1815,12 @@
     {
       "Name": "Tom Phair",
       "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "2.6",
+          "Year": "2022",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "4.10",
