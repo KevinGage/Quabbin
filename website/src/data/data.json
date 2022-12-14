@@ -1,7 +1,16 @@
-// ###### WHO IS PHEDZ? 2 lb 6 oz small mouth 2022
-
 {
   "fishermen": [
+    {
+      "Name": "Phedz",
+      "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "2.6",
+          "Year": "2022",
+          "Winner": false
+        }
+      ]
+    },
     {
       "Name": "Bill Dowd",
       "Fish": [
