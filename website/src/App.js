@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import NavbarComponent from "./components/NavbarComponent/NavbarComponent";
 import Records from "./components/Records/Records";
 import RawData from "./components/RawData/RawData";
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/">
         <NavbarComponent />
         <Switch>
           <Route exact path="/">
@@ -49,7 +49,7 @@ function App() {
             <NotFound />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
