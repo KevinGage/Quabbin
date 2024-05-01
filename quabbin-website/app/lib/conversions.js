@@ -1,5 +1,5 @@
 export function stringToOunces(s) {
-  if (s === "") {
+  if (!s) {
     return 0;
   }
   const stringParts = s.split(".");
