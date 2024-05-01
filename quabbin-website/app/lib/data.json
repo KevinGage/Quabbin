@@ -1,0 +1,2212 @@
+{
+  "fishermen": [
+    {
+      "Name": "Bill Dowd",
+      "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "4.3",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.4",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.1",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.5",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.12",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.11",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.6",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.12",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.6",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "sm",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2006",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Bill Dowd Jr",
+      "Fish": [
+        {
+          "Species": "r",
+          "Weight": "1.11",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.14",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.11",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.11",
+          "Year": "2015",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Brendan Johnson",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.10",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.11",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.10",
+          "Year": "2010",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Brian Bemis",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2021",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Bryan Williams",
+      "Fish": [
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2004",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Carl Johnson",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "1.15",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.10",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.14",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.11",
+          "Year": "2014",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.7",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2008",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Chuck Davis",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.4",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.3",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.1",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.2",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.10",
+          "Year": "2011",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "4.1",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Craig Lodowski",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "4.7",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2009",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.2",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.15",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2003",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Dan Boyle",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "3.8",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.12",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.0",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "sm",
+          "Weight": "1.3",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "sm",
+          "Weight": "1.11",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.13",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2007",
+          "Winner": true
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "1999",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Dan Ross",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.1",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2016",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "David Britton",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.5",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.4",
+          "Year": "2024",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Derek Nobrega",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.6",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "6.13",
+          "Year": "2013",
+          "Winner": true
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "1998",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Don Dallaire",
+      "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "3.8",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.9",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.7",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.13",
+          "Year": "2017",
+          "Winner": true
+        },
+        {
+          "Species": "s",
+          "Weight": "3.14",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4",
+          "Year": "2015",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "2.9",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "1.13",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "1995",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Doug Sousa",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.10",
+          "Year": "2022",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "2.14",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.4",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.8",
+          "Year": "2020",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Dougie Sousa",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.5",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.1",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.4",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.14",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Frank Sousa",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.10",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jackie Sousa",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.14",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.1",
+          "Year": "2016",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "James Phair",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.2",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2019",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jason Carlson",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.9",
+          "Year": "2013",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jeff Carlson",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.1",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jeff Owens",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.1",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.9",
+          "Year": "2019",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jerry Kissrell",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "3.8",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.10",
+          "Year": "2017",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jimmy Borden",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.8",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Joe Reardon",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.12",
+          "Year": "2023",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "2.14",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.14",
+          "Year": "2019",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "4.13",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.4",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "1.13",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.12",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2001",
+          "Winner": true
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "1995",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Joe Sirois",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.3",
+          "Year": "2016",
+          "Winner": true
+        },
+        {
+          "Species": "sm",
+          "Weight": "1.11",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.5",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.11",
+          "Year": "2013",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Joel Anderson",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2015",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "John McDonnell",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "0.15",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.11",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.15",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.9",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.5",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.7",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.8",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.3",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.6",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.6",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.6",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2012",
+          "Winner": true
+        },
+        {
+          "Species": "r",
+          "Weight": "2.1",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "John Sirois",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.8",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.12",
+          "Year": "2013",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jolly John",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2024",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Jose Morales",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2017",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Josh Miller",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2018",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Kevin Gage",
+      "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "5.12",
+          "Year": "2024",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.2",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.2",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.1",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.9",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.8",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.1",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.15",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.13",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.11",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.15",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "1997",
+          "Winner": true
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "1996",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Kevin Smith",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.11",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Mark Nobrega",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "2.7",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.4",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.0",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.4",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "1.1",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.8",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.14",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.14",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.12",
+          "Year": "2008",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "3.12",
+          "Year": "2008",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Matt Hamilton",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.8",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2016",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Michael Sirois",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.4",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.1",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Mike Ewald",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "4.1",
+          "Year": "2015",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Nolan Reardon",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "2.7",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.2",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.11",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Rene Lariviere",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.2",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2008",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Rob Crear",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.6",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.7",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.13",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.4",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.3",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.10",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2005",
+          "Winner": true
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2002",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Ronny Byrnes",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.12",
+          "Year": "2014",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Ryan Bemis",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.2",
+          "Year": "2023",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Scott Gage",
+      "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "3.7",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.12",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "sm",
+          "Weight": "3.1",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.10",
+          "Year": "2018",
+          "Winner": true
+        },
+        {
+          "Species": "sm",
+          "Weight": "3.6",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.4",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2015",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.7",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.15",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "sm",
+          "Weight": "",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "",
+          "Year": "2008",
+          "Winner": false
+        },
+        {
+          "Species": "",
+          "Weight": "",
+          "Year": "2000",
+          "Winner": true
+        }
+      ]
+    },
+    {
+      "Name": "Steve Sutterly",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.10",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "1.12",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.9",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.9",
+          "Year": "2017",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.12",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.15",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "2.2",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2013",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Terry Carbone",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "2.2",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.12",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.10",
+          "Year": "2023",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "1.14",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.8",
+          "Year": "2021",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "1.12",
+          "Year": "2021",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.14",
+          "Year": "2020",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.11",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.2",
+          "Year": "2018",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.10",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.13",
+          "Year": "2016",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.3",
+          "Year": "2014",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.9",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.9",
+          "Year": "2013",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.12",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.1",
+          "Year": "2011",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1",
+          "Year": "2011",
+          "Winner": false
+        }
+      ]
+    },
+    {
+      "Name": "Tom Phair",
+      "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "2.6",
+          "Year": "2022",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.10",
+          "Year": "2019",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.2",
+          "Year": "2019",
+          "Winner": false
+        }
+      ]
+    }
+  ],
+  "species": [
+    {
+      "name": "Lake Trout",
+      "code": "l"
+    },
+    {
+      "name": "Salmon",
+      "code": "s"
+    },
+    {
+      "name": "Rainbow Trout",
+      "code": "r"
+    },
+    {
+      "name": "Smallmouth Bass",
+      "code": "sm"
+    },
+    {
+      "name": "",
+      "code": ""
+    }
+  ]
+}
