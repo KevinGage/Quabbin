@@ -102,7 +102,6 @@ export default function DataTable({ data }) {
 
   const handleSort = (field) => {
     setSortField(field);
-    console.log(field);
     setSortDirection(sortDirection === "asc" ? "desc" : "asc");
   };
 
