@@ -4,6 +4,24 @@
       "Name": "Bill Dowd",
       "Fish": [
         {
+          "Species": "sm",
+          "Weight": "4.3",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "2.4",
           "Year": "2023",
@@ -146,6 +164,18 @@
       "Name": "Brendan Johnson",
       "Fish": [
         {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.10",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "2.15",
           "Year": "2016",
@@ -194,6 +224,24 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.13",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "2.12",
           "Year": "2023",
           "Winner": false
@@ -226,6 +274,12 @@
     {
       "Name": "Carl Johnson",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "1.15",
@@ -513,6 +567,23 @@
       ]
     },
     {
+      "Name": "David Britton",
+      "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.5",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "4.4",
+          "Year": "2024",
+          "Winner": false
+        }
+      ]
+    },
+    {
       "Name": "Derek Nobrega",
       "Fish": [
         {
@@ -745,6 +816,12 @@
       "Name": "Jackie Sousa",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "3.3",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
           "Species": "s",
           "Weight": "3.14",
           "Year": "2017",
@@ -836,6 +913,12 @@
     {
       "Name": "Jeff Owens",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "1.1",
+          "Year": "2024",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "4.9",
@@ -1017,6 +1100,30 @@
       "Name": "John McDonnell",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
           "Species": "s",
           "Weight": "0.15",
           "Year": "2023",
@@ -1150,6 +1257,17 @@
       ]
     },
     {
+      "Name": "Jolly John",
+      "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.7",
+          "Year": "2024",
+          "Winner": false
+        }
+      ]
+    },
+    {
       "Name": "Jose Morales",
       "Fish": [
         {
@@ -1165,6 +1283,24 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "3.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "3.1",
           "Year": "2018",
           "Winner": false
@@ -1174,6 +1310,30 @@
     {
       "Name": "Kevin Gage",
       "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "5.12",
+          "Year": "2024",
+          "Winner": true
+        },
+        {
+          "Species": "l",
+          "Weight": "3.1",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.11",
+          "Year": "2024",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "2.2",
@@ -1340,6 +1500,18 @@
     {
       "Name": "Mark Nobrega",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "2.7",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.4",
+          "Year": "2024",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "3.0",
@@ -1541,6 +1713,12 @@
         {
           "Species": "l",
           "Weight": "2.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.6",
           "Year": "2018",
           "Winner": false
         },
@@ -1658,6 +1836,24 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "2.12",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "3.2",
           "Year": "2023",
           "Winner": false
@@ -1667,6 +1863,30 @@
     {
       "Name": "Scott Gage",
       "Fish": [
+        {
+          "Species": "sm",
+          "Weight": "3.7",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.5",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.12",
+          "Year": "2024",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "2.7",
@@ -1746,6 +1966,18 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "2.10",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "3.11",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "2.12",
           "Year": "2023",
           "Winner": false
@@ -1797,6 +2029,36 @@
     {
       "Name": "Terry Carbone",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.6",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2024",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "2.2",
+          "Year": "2024",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "2.12",
