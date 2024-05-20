@@ -74,7 +74,6 @@ export default async function Page() {
 
   return (
     <section>
-      <h1>Stats</h1>
       <div className="bg-gray-50 h-96 text-black m-6">
         <AverageWeightPerYear data={averageFishWeightPerYear} />
       </div>
