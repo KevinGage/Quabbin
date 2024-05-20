@@ -20,14 +20,14 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14.x
+          node-version: 20.x
 
       - name: Install NPM packages
-        working-directory: ./website
+        working-directory: ./quabbin-website
         run: npm ci
 
       - name: Build project
-        working-directory: ./website
+        working-directory: ./quabbin-website
         run: npm run build
 
       - name: Deploy to gh-pages branch
@@ -36,5 +36,5 @@ jobs:
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website/build
+          publish_dir: ./quabbin-website/out
           cname: quabbin.kevshome.net
