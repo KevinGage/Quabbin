@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.link {
+  @apply text-slate-50;
+  @apply hover:text-slate-300;
+  @apply transition-colors;
+}
+
 th {
   border: 1px solid;
 }
