@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import quabbinThumbnail from "../../public/quabbinThumbnail.png";
+import QuabbinThumbnail from "../../public/QuabbinThumbnail.png";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="h-16 w-full z-30 sticky top-0 flex items-center bg-orange-950">
       <div className="px-10">
-        <Image src={quabbinThumbnail} alt="Logo" />
+        <Image src={QuabbinThumbnail} alt="Logo" />
       </div>
       <Link
         className={`px-5 link ${pathname === "/" ? "underline" : ""}`}
