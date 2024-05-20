@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import quabbinThumbnail from "@/public/quabbinThumbnail.png";
+import quabbinThumbnail from "../../public/quabbinThumbnail.png";
 
 export default function Navbar() {
   const pathname = usePathname();
