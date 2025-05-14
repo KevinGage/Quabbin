@@ -4,6 +4,12 @@
       "Name": "Bill Dowd",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "2.8",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
           "Species": "sm",
           "Weight": "4.3",
           "Year": "2024",
@@ -165,6 +171,12 @@
       "Fish": [
         {
           "Species": "s",
+          "Weight": "1.12",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "s",
           "Weight": "1.11",
           "Year": "2024",
           "Winner": false
@@ -223,6 +235,18 @@
       "Name": "Brian Bemis",
       "Fish": [
         {
+          "Species": "s",
+          "Weight": "1.7",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.11",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "3.6",
           "Year": "2024",
@@ -274,6 +298,12 @@
     {
       "Name": "Carl Johnson",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "2.6",
+          "Year": "2025",
+          "Winner": false
+        },
         {
           "Species": "s",
           "Weight": "1.9",
@@ -965,6 +995,18 @@
       "Name": "Joe Reardon",
       "Fish": [
         {
+          "Species": "sm",
+          "Weight": "5.8",
+          "Year": "2025",
+          "Winner": true
+        },
+        {
+          "Species": "s",
+          "Weight": "1.10",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "3.12",
           "Year": "2023",
@@ -1282,6 +1324,18 @@
       "Name": "Josh Miller",
       "Fish": [
         {
+          "Species": "s",
+          "Weight": "1.12",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.10",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "3.11",
           "Year": "2024",
@@ -1310,6 +1364,24 @@
     {
       "Name": "Kevin Gage",
       "Fish": [
+        {
+          "Species": "r",
+          "Weight": "1.7",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.7",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.15",
+          "Year": "2025",
+          "Winner": false
+        },
         {
           "Species": "sm",
           "Weight": "5.12",
@@ -1835,6 +1907,30 @@
       "Name": "Ryan Bemis",
       "Fish": [
         {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.9",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.12",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "2.12",
           "Year": "2024",
@@ -1863,6 +1959,18 @@
     {
       "Name": "Scott Gage",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "2.7",
+          "Year": "2025",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2025",
+          "Winner": false
+        },
         {
           "Species": "sm",
           "Weight": "3.7",
