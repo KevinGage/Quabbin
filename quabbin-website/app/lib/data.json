@@ -4,6 +4,24 @@
       "Name": "Bill Dowd",
       "Fish": [
         {
+          "Species": "s",
+          "Weight": "1.3",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.8",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.9",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
           "Species": "l",
           "Weight": "2.8",
           "Year": "2025",
@@ -235,6 +253,24 @@
       "Name": "Brian Bemis",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.3",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.5",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
           "Species": "s",
           "Weight": "1.7",
           "Year": "2025",
@@ -298,6 +334,12 @@
     {
       "Name": "Carl Johnson",
       "Fish": [
+        {
+          "Species": "s",
+          "Weight": "2.9",
+          "Year": "2026",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "2.6",
@@ -499,6 +541,18 @@
     {
       "Name": "Dan Boyle",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.4",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.15",
+          "Year": "2026",
+          "Winner": false
+        },
         {
           "Species": "s",
           "Weight": "3.8",
@@ -995,6 +1049,24 @@
       "Name": "Joe Reardon",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "1.15",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "2.5",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.5",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
           "Species": "sm",
           "Weight": "5.8",
           "Year": "2025",
@@ -1143,6 +1215,18 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "2.3",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "3.9",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "3.8",
           "Year": "2024",
           "Winner": false
@@ -1268,6 +1352,24 @@
       "Fish": [
         {
           "Species": "l",
+          "Weight": "2.15",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.10",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "1.3",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "l",
           "Weight": "2.12",
           "Year": "2015",
           "Winner": false
@@ -1364,6 +1466,18 @@
     {
       "Name": "Kevin Gage",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "1.2",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "r",
+          "Weight": "1.5",
+          "Year": "2026",
+          "Winner": false
+        },
         {
           "Species": "r",
           "Weight": "1.7",
@@ -1572,6 +1686,12 @@
     {
       "Name": "Mark Nobrega",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.15",
+          "Year": "2026",
+          "Winner": true
+        },
         {
           "Species": "s",
           "Weight": "2.7",
@@ -1907,6 +2027,30 @@
       "Name": "Ryan Bemis",
       "Fish": [
         {
+          "Species": "l",
+          "Weight": "3.11",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "l",
+          "Weight": "2.15",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.11",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
+          "Species": "s",
+          "Weight": "2.5",
+          "Year": "2026",
+          "Winner": false
+        },
+        {
           "Species": "s",
           "Weight": "1.9",
           "Year": "2025",
@@ -2137,6 +2281,12 @@
     {
       "Name": "Terry Carbone",
       "Fish": [
+        {
+          "Species": "l",
+          "Weight": "3.8",
+          "Year": "2026",
+          "Winner": false
+        },
         {
           "Species": "l",
           "Weight": "3.6",
